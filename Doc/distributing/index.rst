@@ -13,7 +13,8 @@ available for other Python developers to use under open source license terms.
 
 This allows Python users to share and collaborate effectively, benefiting
 from the solutions others have already created to common (and sometimes
-even rare!) problems, as well as potentially contributing their own
+even rare!) problems, as well as potentially contributing their
+own
 solutions to the common pool.
 
 This guide covers the distribution part of the process. For a guide to
