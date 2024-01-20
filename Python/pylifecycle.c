@@ -1735,8 +1735,6 @@ finalize_interp_types(PyInterpreterState *interp)
     _PySys_FiniTypes(interp);
     _PyXI_FiniTypes(interp);
     _PyExc_Fini(interp);
-    _PyAsyncGen_Fini(interp);
-    _PyContext_Fini(interp);
     _PyFloat_FiniType(interp);
     _PyLong_FiniTypes(interp);
     _PyThread_FiniType(interp);
@@ -1759,6 +1757,8 @@ finalize_interp_types(PyInterpreterState *interp)
     _PyList_Fini(state);
     _PyFloat_Fini(state);
     _PySlice_Fini(state);
+    _PyContext_Fini(state);
+    _PyAsyncGen_Fini(state);
 
 #ifdef Py_DEBUG
     _PyStaticObjects_CheckRefcnt(interp);
